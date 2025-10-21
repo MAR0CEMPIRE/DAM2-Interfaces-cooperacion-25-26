@@ -42,7 +42,7 @@ public class ModificarProductos extends Parent {
             System.out.println("Categoría: " + categoria);
         });
         // Crear el layout
-        GridPane grid = new GridPane();
+        GridPane grid = new GridPane();//
         grid.setPadding(new Insets(20));
         grid.setVgap(10);
         grid.setHgap(10);
