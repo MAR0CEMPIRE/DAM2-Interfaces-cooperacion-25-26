@@ -60,7 +60,7 @@ public class ModificarProductos extends Parent {
         grid.add(categoriaLabel, 0, 3);
         grid.add(categoriaCombo, 1, 3);
 
-        grid.add(guardarButton, 1, 5);
+        grid.add(guardarButton, 1, 4);
 
         // Mostrar la escena
         Scene scene = new Scene(grid, 400, 300);
